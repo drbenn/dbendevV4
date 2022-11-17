@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --main-font-color:#353535;
+  // combo 1
+  // --primary-color:rgb(95, 113, 84);
+  // --accent: rgb(214, 199, 116);
+  //combo 2
+  // --primary-color:rgb(99, 91, 72);
+  // --accent: rgb(214, 199, 116);
+  // combo 3
+  // --primary-color:rgb(129, 94, 99);
+  // --accent: rgb(216, 204, 135);
+  // combo 4
+  // --primary-color:rgb(65, 85, 97);
+  // --accent: rgb(216, 181, 135);
+  // combo 5
+  --primary-color:rgb(24, 37, 45);
+  --accent: rgb(199, 218, 139);
+
+}
+body {
+  margin: 0;
+  padding: 0;
+  // font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Barlow', sans-serif;
+  color: var(--main-font-color);
+  background-color: var(--primary-color);
+}
+
+
+.flex-center {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+
+  // border: 1px solid blue;
+  width: 100%;
+}

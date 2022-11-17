@@ -1,0 +1,37 @@
+.flex-center-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  // border: 1px solid blue;
+}
+
+
+.past-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  max-width: 20%;
+  height: fit-content;
+  margin: 0rem 1.5rem 1rem 0rem;
+  padding: 2rem;
+  background-color: var(--accent);
+}
+
+.image {
+  height: 5rem;
+  width: 10rem;
+  border: 1px solid black;
+  margin-right: 2rem;
+  padding: 4rem;
+  color:var(--accent);
+  background-color: var(--main-font-color);
+}
+
+.past-text {
+  width:100%;
+  margin: 0.5rem 0;
+}
