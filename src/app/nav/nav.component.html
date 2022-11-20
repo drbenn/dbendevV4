@@ -3,9 +3,9 @@
   <li>Featured</li>
   <li>Blog</li>
   <li>Past</li>
-  <div class="nav-burger">
-    <div class="line-1"></div>
-    <div class="line-2"></div>
-    <div class="line-3"></div>
+  <div class="nav-burger" (click)="setBurgerClass($event)">
+    <div [ngClass]="burgerClasses[0]"  id="burger-line-1"></div>
+    <div [ngClass]="burgerClasses[1]"  id="burger-line-2"></div>
+    <div [ngClass]="burgerClasses[2]"  id="burger-line-3"></div>
   </div>
 </ul>
