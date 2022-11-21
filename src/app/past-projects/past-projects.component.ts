@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,9 +9,23 @@ import { Component, OnInit } from '@angular/core';
 export class PastProjectsComponent implements OnInit {
 
   pastProjects = ['MTLT', 'Worthie', 'Retro Blackjack', 'Landing Page']
-  constructor() { }
+  jsonData:any;
+  constructor(private httpClient: HttpClient,) { }
 
   ngOnInit(): void {
+    this.getProjectData();
+    console.log(this.jsonData);
+
   }
 
+  private getProjectData() {
+    const jsonFile = '../../assets/data/projectData.json';
+    this.httpClient.get(jsonFile).subscribe((data)=> {
+      if (data) {
+        this.jsonData = data
+      }
+    })
+
+
+  }
 }

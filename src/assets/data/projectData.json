@@ -1,0 +1,122 @@
+[
+  {
+    "title":"More Than Last Time",
+    "oneLine": "",
+    "detail":"MTLT Fitness Tracker. A play on Greg Doucette's Harder Than Last Time mantra. I was tired of tracking gym workouts in Google Sheets, with my burgeoning Angular skills, thought I would tackle a new full-stack project that included NGXS state management, NestJS and Mongoose. Now while working out I can easily see the performance of my last attempt and best attempt without scrambling through a spreadsheet. Minimum viable alpha Released August 24, 2022 and updates ongoing. ",
+    "img": "../../assets/img/project-preview/mtlt",
+    "timeLine": "Aug 2022",
+    "tech": ["angular","ngxs","typescript", "nestjs", "mongodb"],
+    "gitLink": "https://github.com/drbenn/mtlt",
+    "demoLink": "https://danbennett.dev/mtlt/"
+  },
+  {
+    "title":"Lite-Brite",
+    "oneLine": "",
+    "detail":"A fun, creative project. I saw the cool stickers and wanted to use them for a project but didn't know for what. Eventually remembered Lite-Brite was a thing, so the idea came to recreate a scene reminiscent of childhood. ",
+    "img": "../../src/assets/img/project-preview/lite-brite",
+    "timeLine": "Jun 2022",
+    "tech": ["js","html","css"],
+    "gitLink": "https://github.com/drbenn/lite-brite",
+    "demoLink": "https://drbenn.github.io/lite-brite/"
+  },
+  {
+    "title":"Worthie",
+    "oneLine": "",
+    "detail":"Personal Finance Tracker. My first in-depth full stack project. I've been keeping track of my income, expenses and net worth for years on a spreadsheet. This was my attempt at a more accessible web based version. Note - my sample data from the test login only goes to March 2022, whereas the app will load on the current month, so to view test data you need to switch the date right off the bat. ",
+    "img": "./img/project-preview/worthie-fin-tracker",
+    "timeLine": "Jan 2022",
+    "tech": ["js","nodejs","mysql","aws","bootstrap"],
+    "gitLink": "https://github.com/drbenn/worthie-fin-track",
+    "demoLink": "https://danbennett.dev/worthie/"
+  },
+  {
+    "title":"Dividend Rate Blender",
+    "oneLine": "",
+    "detail":"",
+    "img": "img/project-preview/dividend-rate-blender",
+    "timeLine": "Dec 2021",
+    "tech": ["js", "css", "html"],
+    "gitLink": "https://github.com/drbenn/dividend-rate-blender",
+    "demoLink": "https://drbenn.github.io/dividend-rate-blender/"
+  },
+  {
+    "title":"Retro Blackjack",
+    "oneLine": "",
+    "detail":"",
+    "img": "/img/project-preview/retro-blackjack",
+    "timeLine": "Nov 2021",
+    "tech": ["js", "css", "html"],
+    "gitLink": "https://github.com/drbenn/retro-blackjack",
+    "demoLink": "https://drbenn.github.io/retro-blackjack/"
+  },
+  {
+    "title":"Store Front",
+    "oneLine": "",
+    "detail":"",
+    "img": "dog-duds-store-front",
+    "timeLine": "Nov 2021",
+    "tech": ["css", "html"],
+    "gitLink": "https://github.com/drbenn/dog-duds-store",
+    "demoLink": "https://drbenn.github.io/dog-duds-store/"
+  },
+  {
+    "title":"Meme Generator",
+    "oneLine": "",
+    "detail":"",
+    "img": "meme-gen",
+    "timeLine": "Dec 2021",
+    "tech": ["css", "html"],
+    "gitLink": "https://github.com/drbenn/meme-generator",
+    "demoLink": "https://drbenn.github.io/meme-generator/"
+  },
+  {
+    "title":"Simple Mobile Portfolio",
+    "oneLine": "",
+    "detail":"",
+    "img": "simple-mobile-portfolio",
+    "timeLine": "Oct 2021",
+    "tech": ["css", "html"],
+    "gitLink": "https://github.com/drbenn/simple-mobile-portfolio",
+    "demoLink": "https://drbenn.github.io/simple-mobile-portfolio/"
+  },
+  {
+    "title":"Landing Page",
+    "oneLine": "",
+    "detail":"",
+    "img": "landing-page",
+    "timeLine": "Sept 2021",
+    "tech": ["css", "html"],
+    "gitLink": "https://github.com/drbenn/coming-soon-landing",
+    "demoLink": "https://drbenn.github.io/coming-soon-landing/"
+  },
+  {
+    "title":"danbennett.dev V1",
+    "oneLine": "",
+    "detail":"",
+    "img": "dbendev1",
+    "timeLine": "Sept 2021",
+    "tech": ["css", "html"],
+    "gitLink": "https://github.com/drbenn/dbendevV1",
+    "demoLink": "https://drbenn.github.io/dbendevV1/"
+  },
+  {
+    "title":"danbennett.dev V2",
+    "oneLine": "",
+    "detail":"",
+    "img": "dbendev2",
+    "timeLine": "Dec 2021",
+    "tech": ["js", "css", "html"],
+    "gitLink": "https://github.com/drbenn/dbendevV2",
+    "demoLink": "https://drbenn.github.io/dbendevV2/"
+  },
+  {
+    "title":"danbennett.dev V3",
+    "oneLine": "",
+    "detail":"",
+    "img": "dbendev3",
+    "timeLine": "Aug 2022",
+    "tech": ["js", "css", "html"],
+    "gitLink": "https://github.com/drbenn/dbendevV3",
+    "demoLink": ""
+  }
+]

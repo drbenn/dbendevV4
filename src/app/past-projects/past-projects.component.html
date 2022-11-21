@@ -1,19 +1,19 @@
 <p>past-projects works!</p>
 <div class="flex-center-wrap">
-    <div *ngFor="let project of pastProjects"  class="past-container">
+    <div *ngFor="let project of jsonData"  class="past-container">
 
         <div class="image">
-          img
+          <img [src]="project.img"/>
         </div>
         <div class="past-column">
           <div class="past-title">
-            {{project}}
+            {{project.title}}
           </div>
           <div class="past-text">
             Lorem ipsum dolor sit amet consectetur.
           </div>
           <div class="past-text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem impedit, laboriosam quibusdam eveniet minus perferendis dicta culpa nostrum aut similique est, qui quia officiis molestias.
+            {{project.detail.length}}
           </div>
         </div>
       </div>
