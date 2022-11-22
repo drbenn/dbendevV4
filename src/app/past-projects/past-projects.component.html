@@ -2,7 +2,7 @@
 
 
   <div class="flex-center-wrap">
-    <div *ngFor="let project of jsonData"  class="past-container">
+    <div   class="past-container" *ngFor="let project of jsonData">
 
         <div class="image">
           <img [src]="project.img"/>
@@ -17,6 +17,12 @@
           <div class="past-text">
             {{project.detail.length}}
           </div>
+          <!-- <div class="tech-container" *ngFor="let tech of project">
+            <div class="tech-image">
+              <img [src]="tech.tech"/>
+              {{tech.tech}}
+            </div>
+          </div> -->
         </div>
       </div>
   </div>
