@@ -1,0 +1,132 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+// ALL NAV --------------------------------------------------------------------
+.nav-absolute {
+  position: absolute;
+  top:0;
+  right:0;
+  background-color: rgba(0, 0, 0, 0.192);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 1rem 1rem 1rem 1.5rem;
+  // border: 1px solid red;
+  justify-content: flex-end;
+
+  li {
+    margin-right: 2rem;
+    font-size: 1.2rem;
+  }
+}
+
+
+.nav-burger {
+  // border: 1px solid red;
+  height:1.6rem;
+  width: 2.5rem;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+
+
+  .line-1 {
+    width: 70%;
+    height: 1px;
+    background-color: var(--burger-color);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    transform: translateY(0.2rem);
+    position: relative;
+    z-index: -90;
+    transition: 0.8s ease-in-out;
+  }
+  .line-2 {
+    width: 65%;
+    height: 1px;
+    background-color: var(--burger-color);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    position: relative;
+    z-index: -90;
+    transition: 1s ease-in-out;
+  }
+  .line-3 {
+    width: 70%;
+    height: 1px;
+    background-color: var(--burger-color);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    transform: translateY(-0.2rem);
+    position: relative;
+    z-index: -90;
+    transition: 0.8s ease-in-out;
+  }
+
+  .line-1-x {
+    width: 60%;
+    height: 1px;
+    background-color: var(--burger-color);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    position: relative;
+    top:36%;
+    transform: rotate(45deg) translateY(0rem);
+    position: relative;
+    z-index: -90;
+    transition: 0.8s ease-in-out;
+  }
+  .line-2-x {
+    width: 0%;
+    height: 0px;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px,;
+    transform: translate(2.5rem, 0rem);
+    position: relative;
+    z-index: -90;
+    transition: 1.0s ease-in-out;
+  }
+  .line-3-x {
+    width: 60%;
+    height: 1px;
+    background-color: var(--burger-color);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    position: relative;
+    bottom:28%;
+    transform: rotate(-45deg) translateY(0rem);
+    position: relative;
+    z-index: -90;
+    // transition: 0.8s ease-in-out;
+    animation: line-3-anim 1s linear;
+  }
+
+  @keyframes line-3-anim {
+    from {
+      transform: rotate(0deg) translateY(0rem);
+  }
+    to {
+      transform: rotate(-225deg) translateY(0rem);
+    }
+  }
+}
+
+.nav-burger:hover .line-1 {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.nav-burger:hover .line-2 {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.nav-burger:hover .line-3 {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+
+// ALL NAV --------------------------------------------------------------------

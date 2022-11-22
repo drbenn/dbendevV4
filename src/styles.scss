@@ -23,13 +23,22 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   // font-family: 'Roboto Condensed', sans-serif;
   font-family: 'Barlow', sans-serif;
   color: var(--main-font-color);
   background-color: var(--primary-color);
 }
 
-
+.full-view-container {
+  border: 1px solid blue;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 .flex-center {
   display: inline-block;
   justify-content: center;

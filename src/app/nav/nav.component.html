@@ -1,11 +1,13 @@
-<ul>
-  <li>About</li>
-  <li>Featured</li>
-  <li>Blog</li>
-  <li>Past</li>
-  <div class="nav-burger" (click)="setBurgerClass($event)">
-    <div [ngClass]="burgerClasses[0]"  id="burger-line-1"></div>
-    <div [ngClass]="burgerClasses[1]"  id="burger-line-2"></div>
-    <div [ngClass]="burgerClasses[2]"  id="burger-line-3"></div>
-  </div>
-</ul>
+<div class="nav-absolute">
+  <ul>
+    <li>About</li>
+    <li>Featured</li>
+    <li>Blog</li>
+    <li>Past</li>
+    <div class="nav-burger" (click)="setBurgerClass($event)">
+      <div [ngClass]="burgerClasses[0]"  id="burger-line-1"></div>
+      <div [ngClass]="burgerClasses[1]"  id="burger-line-2"></div>
+      <div [ngClass]="burgerClasses[2]"  id="burger-line-3"></div>
+    </div>
+  </ul>
+</div>

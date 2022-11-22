@@ -1,7 +1,23 @@
-<app-nav></app-nav>
-<app-about></app-about>
-<app-featured-projects></app-featured-projects>
-<app-blog></app-blog>
-<app-past-projects></app-past-projects>
-<app-footer></app-footer>
+<div class="nav-absolute">
+  <ul>
+    <li><a href="#section-about">About</a></li>
+    <li><div>Featured</div></li>
+    <li ><div (click)="goDown1()">Blog</div></li>
+    <li><div (click)="goDown2()">Past</div></li>
+    <li><div (click)="goDown3()">Footer</div></li>
+    <div class="nav-burger" (click)="setBurgerClass($event)">
+      <div [ngClass]="burgerClasses[0]"  id="burger-line-1"></div>
+      <div [ngClass]="burgerClasses[1]"  id="burger-line-2"></div>
+      <div [ngClass]="burgerClasses[2]"  id="burger-line-3"></div>
+    </div>
+  </ul>
+</div>
+
+
+<!-- <app-nav></app-nav> -->
+<app-about id="section-about"></app-about>
+<app-featured-projects id="section-featured"></app-featured-projects>
+<app-blog id="target-blog"></app-blog>
+<app-past-projects id="target-past-projects"></app-past-projects>
+<app-footer id="target-footer"></app-footer>
 
